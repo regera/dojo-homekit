@@ -118,6 +118,7 @@
 					F019C8411A8C24E700E2BC5E = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = TS6V23BE8W;
+						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.HomeKit = {
 								enabled = 1;
@@ -273,6 +274,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igotit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -288,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.igotit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
