@@ -28,7 +28,7 @@ class XMCDiscoveryViewController: UITableViewController, HMAccessoryBrowserDeleg
     
         // Searching for accessories is an expensive operation. Stop the process within
         // a reasonable time to avoid unnessarily using battery & other resources
-        NSTimer.scheduledTimerWithTimeInterval(10.0, target: self, selector: "stopSearching", userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(XMCDiscoveryViewController.stopSearching), userInfo: nil, repeats: false)
     }
     
     func stopSearching() {
@@ -38,12 +38,12 @@ class XMCDiscoveryViewController: UITableViewController, HMAccessoryBrowserDeleg
     
     // MARK: - Table
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return accessories.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCellWithIdentifier("accessoryId") {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "accessoryId") {
             let accessory = accessories[indexPath.row] as HMAccessory
             cell.textLabel?.text = accessory.name
             return cell
@@ -51,7 +51,7 @@ class XMCDiscoveryViewController: UITableViewController, HMAccessoryBrowserDeleg
         return UITableViewCell()
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let accessory = accessories[indexPath.row] as HMAccessory
 
         if let room = homeManager.primaryHome?.rooms.first as HMRoom? {
@@ -59,11 +59,11 @@ class XMCDiscoveryViewController: UITableViewController, HMAccessoryBrowserDeleg
                 if error != nil {
                     print("Something went wrong when attempting to add an accessory to our home. \(error?.localizedDescription)")
                 } else {
-                    self.homeManager.primaryHome?.assignAccessory(accessory, toRoom: room, completionHandler: { (error) -> Void in
+                    self.homeManager.primaryHome?.assignAccessory(accessory, to: room, completionHandler: { (error) -> Void in
                         if error != nil {
                             print("Something went wrong when attempting to add an accessory to our home. \(error?.localizedDescription)")
                         } else {
-                            self.navigationController?.popViewControllerAnimated(true)
+                            self.navigationController?.popViewController(animated: true)
                         }
                     })
                 }
@@ -75,21 +75,21 @@ class XMCDiscoveryViewController: UITableViewController, HMAccessoryBrowserDeleg
     // MARK: - Accessory Delegate
     
     // Informs us when we've located a new accessory in the home
-    func accessoryBrowser(browser: HMAccessoryBrowser, didFindNewAccessory accessory: HMAccessory) {
+    func accessoryBrowser(_ browser: HMAccessoryBrowser, didFindNewAccessory accessory: HMAccessory) {
         accessories.append(accessory)
         tableView.reloadData()
     }
     
     // Inform us when a device has been removed... so something that was previously 
     // reachable, but is no longer.
-    func accessoryBrowser(browser: HMAccessoryBrowser, didRemoveNewAccessory accessory: HMAccessory) {
+    func accessoryBrowser(_ browser: HMAccessoryBrowser, didRemoveNewAccessory accessory: HMAccessory) {
         var index = 0
         for item in accessories {
             if item.name == accessory.name {
-                accessories.removeAtIndex(index)
+                accessories.remove(at: index)
                 break; // done
             }
-            ++index
+            index += 1
         }
         tableView.reloadData()
     }
