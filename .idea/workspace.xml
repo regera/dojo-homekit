@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d663511-4055-4869-b4f6-3071406a2d97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dojo-homekit.iml" afterPath="$PROJECT_DIR$/.idea/dojo-homekit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dojo-homekit/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/dojo-homekit/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dojo-homekit/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/dojo-homekit/Images.xcassets/AppIcon.appiconset/Contents.json" />
     </list>
     <ignored path="dojo-homekit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -165,12 +160,20 @@
       <workItem from="1475634146800" duration="218000" />
       <workItem from="1475634731956" duration="225000" />
       <workItem from="1475636945569" duration="68000" />
-      <workItem from="1475637036955" duration="114000" />
+      <workItem from="1475637036955" duration="128000" />
     </task>
+    <task id="LOCAL-00001" summary="ert">
+      <created>1475637158998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475637158998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="625000" />
+    <option name="totallyTimeSpent" value="639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,6 +221,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="ert" />
+    <option name="LAST_COMMIT_MESSAGE" value="ert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
