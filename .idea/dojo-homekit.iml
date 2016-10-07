@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/dojo-homekit-fvbedreakcogmqgjtpnmgqzvyoeb/Build/Intermediates/dojo-homekit.build/Debug-iphoneos/dojo-homekit.build/DerivedSources" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/XMCDiscoveryViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/LaunchScreen_rank_3.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/Images.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/readme.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/dojo-homekit.entitlements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/XMCDiscoveryViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/XMCBaseViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dojo-homekit/XMCAccessoryViewController.swift" isTestSource="false" />
