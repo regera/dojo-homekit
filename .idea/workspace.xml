@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d663511-4055-4869-b4f6-3071406a2d97" name="Default" comment="trying to ge this to work." />
+    <list default="true" id="7d663511-4055-4869-b4f6-3071406a2d97" name="Default" comment="trying to ge this to work.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="dojo-homekit.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,22 +21,24 @@
     <session id="-848951335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="entitlements" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
           <entry key="swift" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Git file" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Swift" value="3" />
         </counts>
@@ -61,30 +66,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dojo-homekit/AppDelegate.swift">
+        <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCAccessoryViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="315">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dojo-homekit/dojo-homekit.entitlements">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCAccessoryViewController.swift">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCBaseViewController.swift">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -98,6 +89,7 @@
       <list>
         <option value="$PROJECT_DIR$/dojo-homekit/XMCBaseViewController.swift" />
         <option value="$PROJECT_DIR$/dojo-homekit/readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -119,7 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +134,7 @@
         </subPane>
       </pane>
       <pane id="NBKnowledgePane" />
-      <pane id="Cidr.FilesView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +145,7 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,6 +234,7 @@
       <workItem from="1536015361346" duration="93000" />
       <workItem from="1536015473344" duration="214000" />
       <workItem from="1536015712759" duration="556000" />
+      <workItem from="1536017634972" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="ert">
       <created>1475637158998</created>
@@ -275,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8479000" />
+    <option name="totallyTimeSpent" value="8653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,6 +281,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,7 +294,7 @@
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003524" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32650602" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49964765" visible="true" weight="0.5048193" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49964765" visible="true" weight="0.24939759" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.27951807" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
@@ -363,20 +357,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dojo-homekit/readme.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor />
           <second_editor>
-            <markdownNavigatorState>
-              <previewPanelState version="2.5.4" />
-            </markdownNavigatorState>
+            <markdownNavigatorState />
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCAccessoryViewController.swift">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCBaseViewController.swift">
       <provider selected="true" editor-type-id="text-editor" />
@@ -394,6 +383,16 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dojo-homekit/XMCAccessoryViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
